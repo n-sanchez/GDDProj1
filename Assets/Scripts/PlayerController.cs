@@ -235,5 +235,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    public void IncreaseSpeed(float value)
+    {
+        //Increment Speed
+        movespeed += value;
+    }
     #endregion
 }
